@@ -48,6 +48,14 @@ print()
 print("---------------------")
 print("       Result        ")
 print("---------------------")
+print()
+
+for i in range(len(guessed)):
+    print(f"Question {i+1}")
+    print(f"Your answer:{guessed[i]:30}")
+    print(f"Correct: {solutions[i]:30}")
+    print()
+
 print(f"Total score:{(score/len(guessed))*100}%")
 
 
