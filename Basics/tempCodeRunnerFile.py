@@ -1,7 +1,8 @@
-def add(*args):  #you can write *nums or any name but people choose to use *args
-#     total = 0
-#     for arg in args:  #num in nums
-#         total += arg
-#     return total    
+word = "APPLE"
 
-# print(add(1))
+# letter = input("Guess the letter in the secret word: ")
+
+# if letter in word:  #not in
+#     print(f"The is a {letter}")  #print(f"{letter} not found")
+# else:
+#     print(f"{letter} not found") #print(f"The is a {letter}")
