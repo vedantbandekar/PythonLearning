@@ -16,7 +16,7 @@ while True:
 print("#-------Your Cart---------#")
 
 for i in range(len(foods)):
-    print(i, f"{foods[i]:20}------₹{prices[i]}")
+    print(i+1, f"{foods[i]:20}------₹{prices[i]}")
 
 
 for price in prices:

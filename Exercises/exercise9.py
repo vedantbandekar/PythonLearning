@@ -20,7 +20,7 @@ print("------------------------------")
 
 
 while True:  #while True checks for first condition to be true and 2nd to be false
-    food = input("What will yoy like to have(Q to quit): ").capitalize()
+    food = input("What will you like to have(Q to quit): ").capitalize()
     if food == "Q":
         print("Thankyou!")
         break
@@ -30,9 +30,9 @@ while True:  #while True checks for first condition to be true and 2nd to be fal
 print("-----------TOTAL - BILL-------------")
 for food in cart:
     total += menu.get(food)
-    print(f"{food:15}... ₹{menu.get(food):.2f}")
+    print(f"{food:25}... ₹{menu.get(food):.2f}")
 
-print("------------------------------")
+print("-------------------------------------")
 
 print(f"Total cost : ₹{total:.2f}")
 

@@ -8,7 +8,7 @@ running = True
 print("Welcome to ROCK PAPER SCISSORS GAME!")
 
 while running:
-    player = None
+    player = None # 0 nay takla since its a variable value so we put none
     computer = random.choice(options)
 
     while player not in options:
