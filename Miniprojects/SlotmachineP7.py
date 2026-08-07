@@ -5,9 +5,9 @@ import random
 def spin_row():
     symbols = ['🍒', '🔔', '🍉', '⭐', '🍋']
 
-    return [random.choice(symbols) for _ in range(3)]
+    return [random.choice(symbols) for _ in range(3)] #This is list of 3 symbols
 
-def print_row(row):
+def print_row(row): # adding | between list of 3 synbols
     print("*****************")
     print(" | ".join(row))
     print("*****************")
