@@ -63,16 +63,25 @@ employees = {
     "Aditya": 59000
 }
 
-list = []
+employees["Himashi"] = 100000
+print(employees)
 
-while True:
-    user = input("Enter name(q):")
-    if user == "q":
-        break
-    else:
-        for employee in employees:
-            if employee == user:
-                list.append(user)
-            else:
-                print("Employee not found")
+# employees.update("Himanshi":10000)
+
+# list = []
+
+# while True:
+#     user = input("Enter name(q):")
+#     if user == "q":
+#         break
+#     else:
+#         for employee in employees:
+#             if employee == user:
+#                 list.append(user)
+#             else:
+#                 print("Employee not found")
+
+
+
+    
 
