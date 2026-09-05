@@ -10,7 +10,7 @@
     # for step in range(1, steps + 1):
         # print(f"You have took {step}") 
 
-#RECUSION (This runs on conditon makinf the problem smaller with each step !!NOT GOOD FOR LARGE NUMBERS/PROCESS!!)
+#RECUSION (This runs on conditon making the problem smaller with each step !!NOT GOOD FOR LARGE NUMBERS/PROCESS!!)
 # def walk(steps):
 #     if steps == 0:
 #         return
